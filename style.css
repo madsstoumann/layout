@@ -1,5 +1,5 @@
-@import '/src/assets/css/props.css';
-@import '/src/assets/css/layout.css';
+@import 'src/assets/css/props.css';
+@import 'src/assets/css/layout.css';
 
 /* Demo styles */
-@import '/src/assets/css/demo.css';
+@import 'src/assets/css/demo.css';
