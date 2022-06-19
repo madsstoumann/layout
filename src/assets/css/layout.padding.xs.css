@@ -1,0 +1,71 @@
+@media (--xs-n-above) {
+	.xs-pbs-0 { --_pbs: 0; }
+	.xs-pbs-1 { --_pbs: 1; }
+	.xs-pbs-2 { --_pbs: 2; }
+	.xs-pbs-3 { --_pbs: 3; }
+	.xs-pbs-4 { --_pbs: 4; }
+	.xs-pbs-5 { --_pbs: 5; }
+	.xs-pbs-6 { --_pbs: 6; }
+	.xs-pbs-7 { --_pbs: 7; }
+	.xs-pbs-8 { --_pbs: 8; }
+
+	.xs-pbe-0 { --_pbe: 0; }
+	.xs-pbe-1 { --_pbe: 1; }
+	.xs-pbe-2 { --_pbe: 2; }
+	.xs-pbe-3 { --_pbe: 3; }
+	.xs-pbe-4 { --_pbe: 4; }
+	.xs-pbe-5 { --_pbe: 5; }
+	.xs-pbe-6 { --_pbe: 6; }
+	.xs-pbe-7 { --_pbe: 7; }
+	.xs-pbe-8 { --_pbe: 8; }
+
+	.xs-pis-0 { --_pis: 0; }
+	.xs-pis-1 { --_pis: 1; }
+	.xs-pis-2 { --_pis: 2; }
+	.xs-pis-3 { --_pis: 3; }
+	.xs-pis-4 { --_pis: 4; }
+	.xs-pis-5 { --_pis: 5; }
+	.xs-pis-6 { --_pis: 6; }
+	.xs-pis-7 { --_pis: 7; }
+	.xs-pis-8 { --_pis: 8; }
+
+	.xs-pie-0 { --_pie: 0; }
+	.xs-pie-1 { --_pie: 1; }
+	.xs-pie-2 { --_pie: 2; }
+	.xs-pie-3 { --_pie: 3; }
+	.xs-pie-4 { --_pie: 4; }
+	.xs-pie-5 { --_pie: 5; }
+	.xs-pie-6 { --_pie: 6; }
+	.xs-pie-7 { --_pie: 7; }
+	.xs-pie-8 { --_pie: 8; }
+
+	.xs-pb-0 { --_pbs: 0; --_pbe: 0; }
+	.xs-pb-1 { --_pbs: 1; --_pbe: 1; }
+	.xs-pb-2 { --_pbs: 2; --_pbe: 2; }
+	.xs-pb-3 { --_pbs: 3; --_pbe: 3; }
+	.xs-pb-4 { --_pbs: 4; --_pbe: 4; }
+	.xs-pb-5 { --_pbs: 5; --_pbe: 5; }
+	.xs-pb-6 { --_pbs: 6; --_pbe: 6; }
+	.xs-pb-7 { --_pbs: 7; --_pbe: 7; }
+	.xs-pb-8 { --_pbs: 8; --_pbe: 8; }
+
+	.xs-pi-0 { --_pis: 0; --_pie: 0; }
+	.xs-pi-1 { --_pis: 1; --_pie: 1; }
+	.xs-pi-2 { --_pis: 2; --_pie: 2; }
+	.xs-pi-3 { --_pis: 3; --_pie: 3; }
+	.xs-pi-4 { --_pis: 4; --_pie: 4; }
+	.xs-pi-5 { --_pis: 5; --_pie: 5; }
+	.xs-pi-6 { --_pis: 6; --_pie: 6; }
+	.xs-pi-7 { --_pis: 7; --_pie: 7; }
+	.xs-pi-8 { --_pis: 8; --_pie: 8; }
+
+	.xs-p-0 { --_pbs: 0; --_pbe: 0; --_pis: 0; --_pie: 0; }
+	.xs-p-1 { --_pbs: 1; --_pbe: 1; --_pis: 1; --_pie: 1; }
+	.xs-p-2 { --_pbs: 2; --_pbe: 2; --_pis: 2; --_pie: 2; }
+	.xs-p-3 { --_pbs: 3; --_pbe: 3; --_pis: 3; --_pie: 3; }
+	.xs-p-4 { --_pbs: 4; --_pbe: 4; --_pis: 4; --_pie: 4; }
+	.xs-p-5 { --_pbs: 5; --_pbe: 5; --_pis: 5; --_pie: 5; }
+	.xs-p-6 { --_pbs: 6; --_pbe: 6; --_pis: 6; --_pie: 6; }
+	.xs-p-7 { --_pbs: 7; --_pbe: 7; --_pis: 7; --_pie: 7; }
+	.xs-p-8 { --_pbs: 8; --_pbe: 8; --_pis: 8; --_pie: 8; }
+}

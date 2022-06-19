@@ -1,0 +1,75 @@
+/**
+ * Layout: Aspect Ratio
+ * @version 1.0.00
+ * @summary 06-18-2022
+ * @author Mads Stoumann
+ * @description Control aspect-ratios.
+ * Ratios:
+ * 1:1 Square
+ * // 1:1.15 Small Portrait
+ * // 2:1 Univisium
+ * // 3:2 35mm Film
+ * 3:4 Portrait
+ * 4:3 TV
+ * 16:9 Widescreen
+ * 16:10 - 1.6180:1 Golden Ratio
+ * 18:5 Ultrawide
+ * 19.5:9 Apple iPhone
+ * // 2.39:1 Anamorphic
+*/
+
+[class*="-ar-"],
+[class*="-ar-"] > :is(iframe, img, video) {
+	aspect-ratio: var(--_ar, none);
+	inline-size: 100%;
+	max-inline-size: 100%;
+	object-fit: cover;
+}
+
+.xs-ar-1_1 { --_ar: 1 / 1; }
+.xs-ar-3_4 { --_ar: 3 / 4; }
+.xs-ar-4_3 { --_ar: 4 / 3; }
+.xs-ar-16_9 { --_ar: 16 / 9; }
+.xs-ar-16_10 { --_ar: 1.6180 / 1; }
+.xs-ar-18_5 { --_ar: 18 / 5; }
+.xs-ar-19_9 { --_ar: 19 / 9; }
+
+@media (--sm-n-above) {
+	.sm-ar-1_1 { --_ar: 1 / 1; }
+	.sm-ar-3_4 { --_ar: 3 / 4; }
+	.sm-ar-4_3 { --_ar: 4 / 3; }
+	.sm-ar-16_9 { --_ar: 16 / 9; }
+	.sm-ar-16_10 { --_ar: 1.6180 / 1; }
+	.sm-ar-18_5 { --_ar: 18 / 5; }
+	.sm-ar-19_9 { --_ar: 19 / 9; }
+}
+
+@media (--md-n-above) {
+	.md-ar-1_1 { --_ar: 1 / 1; }
+	.md-ar-3_4 { --_ar: 3 / 4; }
+	.md-ar-4_3 { --_ar: 4 / 3; }
+	.md-ar-16_9 { --_ar: 16 / 9; }
+	.md-ar-16_10 { --_ar: 1.6180 / 1; }
+	.md-ar-18_5 { --_ar: 18 / 5; }
+	.md-ar-19_9 { --_ar: 19 / 9; }
+}
+
+@media (--lg-n-above) {
+	.lg-ar-1_1 { --_ar: 1 / 1; }
+	.lg-ar-3_4 { --_ar: 3 / 4; }
+	.lg-ar-4_3 { --_ar: 4 / 3; }
+	.lg-ar-16_9 { --_ar: 16 / 9; }
+	.lg-ar-16_10 { --_ar: 1.6180 / 1; }
+	.lg-ar-18_5 { --_ar: 18 / 5; }
+	.lg-ar-19_9 { --_ar: 19 / 9; }
+}
+
+@media (--xl-n-above) {
+	.xl-ar-1_1 { --_ar: 1 / 1; }
+	.xl-ar-3_4 { --_ar: 3 / 4; }
+	.xl-ar-4_3 { --_ar: 4 / 3; }
+	.xl-ar-16_9 { --_ar: 16 / 9; }
+	.xl-ar-16_10 { --_ar: 1.6180 / 1; }
+	.xl-ar-18_5 { --_ar: 18 / 5; }
+	.xl-ar-19_9 { --_ar: 19 / 9; }
+}

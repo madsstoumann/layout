@@ -1,0 +1,77 @@
+/**
+ * Layout: Column
+ * @version 1.0.00
+ * @summary 06-16-2022
+ * @author Mads Stoumann
+ * @description Change the number of columns in a layout, based on breakpoints:
+ * .xs-cols-[x] .sm-cols-[x], .md-cols-[x], .lg-cols-[x], .xl-cols-[x]
+*/
+.xs-cols-1 { --_c: 1; }
+.xs-cols-2 { --_c: 2; }
+.xs-cols-3 { --_c: 3; }
+.xs-cols-4 { --_c: 4; }
+.xs-cols-5 { --_c: 5; }
+.xs-cols-6 { --_c: 6; }
+.xs-cols-7 { --_c: 7; }
+.xs-cols-8 { --_c: 8; }
+.xs-cols-9 { --_c: 9; }
+.xs-cols-10 { --_c: 10; }
+.xs-cols-11 { --_c: 11; }
+.xs-cols-12 { --_c: 12; }
+
+@media (--sm-n-above) {
+	.sm-cols-1 { --_c: 1; }
+	.sm-cols-2 { --_c: 2; }
+	.sm-cols-3 { --_c: 3; }
+	.sm-cols-4 { --_c: 4; }
+	.sm-cols-5 { --_c: 5; }
+	.sm-cols-6 { --_c: 6; }
+	.sm-cols-7 { --_c: 7; }
+	.sm-cols-8 { --_c: 8; }
+	.sm-cols-9 { --_c: 9; }
+	.sm-cols-10 { --_c: 10; }
+	.sm-cols-11 { --_c: 11; }
+	.sm-cols-12 { --_c: 12; }
+}
+@media (--md-n-above) {
+	.md-cols-1 { --_c: 1; }
+	.md-cols-2 { --_c: 2; }
+	.md-cols-3 { --_c: 3; }
+	.md-cols-4 { --_c: 4; }
+	.md-cols-5 { --_c: 5; }
+	.md-cols-6 { --_c: 6; }
+	.md-cols-7 { --_c: 7; }
+	.md-cols-8 { --_c: 8; }
+	.md-cols-9 { --_c: 9; }
+	.md-cols-10 { --_c: 10; }
+	.md-cols-11 { --_c: 11; }
+	.md-cols-12 { --_c: 12; }
+}
+@media (--lg-n-above) {
+	.lg-cols-1 { --_c: 1; }
+	.lg-cols-2 { --_c: 2; }
+	.lg-cols-3 { --_c: 3; }
+	.lg-cols-4 { --_c: 4; }
+	.lg-cols-5 { --_c: 5; }
+	.lg-cols-6 { --_c: 6; }
+	.lg-cols-7 { --_c: 7; }
+	.lg-cols-8 { --_c: 8; }
+	.lg-cols-9 { --_c: 9; }
+	.lg-cols-10 { --_c: 10; }
+	.lg-cols-11 { --_c: 11; }
+	.lg-cols-12 { --_c: 12; }
+}
+@media (--xl-n-above) {
+	.xl-cols-1 { --_c: 1; }
+	.xl-cols-2 { --_c: 2; }
+	.xl-cols-3 { --_c: 3; }
+	.xl-cols-4 { --_c: 4; }
+	.xl-cols-5 { --_c: 5; }
+	.xl-cols-6 { --_c: 6; }
+	.xl-cols-7 { --_c: 7; }
+	.xl-cols-8 { --_c: 8; }
+	.xl-cols-9 { --_c: 9; }
+	.xl-cols-10 { --_c: 10; }
+	.xl-cols-11 { --_c: 11; }
+	.xl-cols-12 { --_c: 12; }
+}

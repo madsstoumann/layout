@@ -1,0 +1,14 @@
+/**
+ * Layout: Widths
+ * @version 1.0.00
+ * @summary 06-18-2022
+ * @author Mads Stoumann
+ * @description Widths for a layout
+*/
+.wd-xxs { --_mis: calc(var(--size-xxs) + var(--_pi)); }
+.wd-xs  { --_mis: calc(var(--size-xs) + var(--_pi)); }
+.wd-sm  { --_mis: calc(var(--size-sm) + var(--_pi)); }
+.wd-md  { --_mis: calc(var(--size-md) + var(--_pi)); }
+.wd-lg  { --_mis: calc(var(--size-lg) + var(--_pi)); }
+.wd-xl  { --_mis: calc(var(--size-xl) + var(--_pi)); }
+.wd-xxl { --_mis: calc(var(--size-xxl) + var(--_pi)); }

@@ -1,0 +1,14 @@
+/**
+ * Layout: Props
+ * @version 1.0.00
+ * @summary 06-18-2022
+ * @author Mads Stoumann
+ * @description Configuration for the Layout Module
+ * Do *NOTt* modify these from within layouts/components. Use multiplicator-classes instead.
+*/
+:where(html) {
+	--layout-block-gap: clamp(1rem, 2vw, 1.125rem);
+	--layout-col-gap: clamp(1rem, 2vw, 1.125rem);
+	--layout-padding-unit: clamp(1rem, 2vw, 1.125rem);
+	--layout-row-gap: clamp(1rem, 2vw, 1.125rem);
+}

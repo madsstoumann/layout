@@ -1,0 +1,70 @@
+/**
+ * Layout: Object Position
+ * @version 1.0.00
+ * @summary 06-18-2022
+ * @author Mads Stoumann
+ * @description Control object-position for an element with `object-fit`, ie. an element with `aspect-ratio`, or inherited `aspect-ratio`.
+*/
+
+[class*="-op-"],
+[class*="-op-"] > :is(iframe, img, video) {
+	object-position: var(--_op);
+}
+
+.xs-op-tl { --_op: 0% 0%; }
+.xs-op-tc { --_op: 50% 0%; }
+.xs-op-tr { --_op: 100% 0%; }
+.xs-op-cl { --_op: 0% 50%; }
+.xs-op-cc { --_op: 50% 50%; }
+.xs-op-cr { --_op: 100% 50%; }
+.xs-op-bl { --_op: 0% 100%; }
+.xs-op-bc { --_op: 50% 100%; }
+.xs-op-br { --_op: 100% 100%; }
+
+@media (--sm-n-above) {
+	.sm-op-tl { --_op: 0% 0%; }
+	.sm-op-tc { --_op: 50% 0%; }
+	.sm-op-tr { --_op: 100% 0%; }
+	.sm-op-cl { --_op: 0% 50%; }
+	.sm-op-cc { --_op: 50% 50%; }
+	.sm-op-cr { --_op: 100% 50%; }
+	.sm-op-bl { --_op: 0% 100%; }
+	.sm-op-bc { --_op: 50% 100%; }
+	.sm-op-br { --_op: 100% 100%; }
+}
+
+@media (--md-n-above) {
+	.md-op-tl { --_op: 0% 0%; }
+	.md-op-tc { --_op: 50% 0%; }
+	.md-op-tr { --_op: 100% 0%; }
+	.md-op-cl { --_op: 0% 50%; }
+	.md-op-cc { --_op: 50% 50%; }
+	.md-op-cr { --_op: 100% 50%; }
+	.md-op-bl { --_op: 0% 100%; }
+	.md-op-bc { --_op: 50% 100%; }
+	.md-op-br { --_op: 100% 100%; }
+}
+
+@media (--lg-n-above) {
+	.lg-op-tl { --_op: 0% 0%; }
+	.lg-op-tc { --_op: 50% 0%; }
+	.lg-op-tr { --_op: 100% 0%; }
+	.lg-op-cl { --_op: 0% 50%; }
+	.lg-op-cc { --_op: 50% 50%; }
+	.lg-op-cr { --_op: 100% 50%; }
+	.lg-op-bl { --_op: 0% 100%; }
+	.lg-op-bc { --_op: 50% 100%; }
+	.lg-op-br { --_op: 100% 100%; }
+}
+
+@media (--xl-n-above) {
+	.xl-op-tl { --_op: 0% 0%; }
+	.xl-op-tc { --_op: 50% 0%; }
+	.xl-op-tr { --_op: 100% 0%; }
+	.xl-op-cl { --_op: 0% 50%; }
+	.xl-op-cc { --_op: 50% 50%; }
+	.xl-op-cr { --_op: 100% 50%; }
+	.xl-op-bl { --_op: 0% 100%; }
+	.xl-op-bc { --_op: 50% 100%; }
+	.xl-op-br { --_op: 100% 100%; }
+}

@@ -1,0 +1,75 @@
+/**
+ * Layout: Main
+ * @version 1.0.00
+ * @summary 06-19-2022
+ * @author Mads Stoumann
+ * @requires `props.layout.css`, `props.media.css`, `props.sizes.css`
+ * @description Adds a grid-based page layout to `<main>` with row-gap between layout-components.
+ * Layout components can be flex- or grid-based.
+*/
+@import 'layout.align.justify.css';
+@import 'layout.aspect.ratio.css';
+@import 'layout.column.css';
+@import 'layout.column.gap.css';
+@import 'layout.block.gap.css';
+@import 'layout.object.fit.css';
+@import 'layout.padding.css';
+@import 'layout.row.gap.css';
+@import 'layout.templates.css';
+@import 'layout.widths.css';
+
+/* MAIN GRID */
+:where(main) {
+	align-self: start;
+	display: grid;
+	grid-auto-flow: dense;
+	margin-block-end: calc(var(--_pg, 1) * var(--layout-block-gap));
+	row-gap: calc(var(--_pg, 1) * var(--layout-block-gap));
+}
+
+/* LAYOUTS */
+.ly-column {
+	column-count: var(--_c, 1);
+	column-gap: calc(var(--_cg, 1) * var(--layout-col-gap));
+}
+.ly-column, .ly-flex, .ly-grid, .ly-slider, .ly-subgrid, .ly-wrapper {
+	--_pi: 0px;
+	inline-size: 100%;
+	margin-inline: auto;
+	max-inline-size: var(--_mis, calc(100vw - var(--_pi)));
+	position: relative;
+}
+.ly-flex,
+.ly-slider {
+	display: flex;
+	gap: calc(var(--_cg, 1) * var(--layout-col-gap));
+}
+.ly-flex >* { flex: 1; }
+.ly-flex-cols >*,
+.ly-slider >* {
+	--_w:  var(--_c, 1);
+	flex: 0 0 calc((100% / var(--_w)) - (((var(--_w) - 1) / var(--_w)) * var(--layout-col-gap)));
+	scroll-snap-align: start;
+}
+.ly-flex-wrap { flex-wrap: wrap; }
+.ly-grid,
+.ly-subgrid {
+	column-gap: calc(var(--_cg, 1) * var(--layout-col-gap));
+	display: grid;
+	row-gap: calc(var(--_rg, 1) * var(--layout-row-gap));
+}
+.ly-grid { grid-template-columns: var(--_gtc, repeat(var(--_c, auto-fit), minmax(var(--layout-min-inline-size, 2rem), 1fr))); }
+.ly-grid >* {
+	grid-column: var(--_gc, span var(--_cs, 1));
+	grid-row: var(--_gr, span var(--_rs, 1));
+	position: relative;
+}
+.ly-grow { --_pi: calc((var(--_pis, 0) * var(--layout-padding-unit)) + (var(--_pie, 0) * var(--layout-padding-unit))); }
+.ly-slider {
+	overflow-y: hidden;
+	scroll-snap-type: x mandatory;
+}
+.ly-slider[class*="-cg-0"] >* { flex: 0 0 calc((100% / var(--_c, 1))); }
+.ly-slider.ly-slider-next >* { --_w: calc((0.15 * var(--_c, 1)) + var(--_c, 1)); }
+.ly-subgrid { align-content: baseline; }
+.ly-wrapper { overflow: hidden; }

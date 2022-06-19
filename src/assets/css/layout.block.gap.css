@@ -1,0 +1,71 @@
+/**
+ * Layout: Block Gap
+ * @version 1.0.00
+ * @summary 06-16-2022
+ * @author Mads Stoumann
+ * @description Change the (row-)gap between layouts on page-level. Can be negative (-n[x]) or positive.
+ * .xs-bg-[x] .sm-bg-[x], .md-bg-[x], .lg-bg-[x], .xl-bg-[x]
+*/
+
+[class*="-bg-"] {
+	margin-block-end: calc(var(--_bg, 1) * var(--layout-block-gap));
+}
+.xs-bg-n5 { --_bg: -5; }
+.xs-bg-n4 { --_bg: -4; }
+.xs-bg-n3 { --_bg: -3; }
+.xs-bg-n2 { --_bg: -2; }
+.xs-bg-n1 { --_bg: -1; }
+.xs-bg-1 { --_bg: 1; }
+.xs-bg-2 { --_bg: 2; }
+.xs-bg-3 { --_bg: 3; }
+.xs-bg-4 { --_bg: 4; }
+.xs-bg-5 { --_bg: 5; }
+
+@media (--sm-n-above) {
+	.sm-bg-n5 { --_bg: -5; }
+	.sm-bg-n4 { --_bg: -4; }
+	.sm-bg-n3 { --_bg: -3; }
+	.sm-bg-n2 { --_bg: -2; }
+	.sm-bg-n1 { --_bg: -1; }
+	.sm-bg-1 { --_bg: 1; }
+	.sm-bg-2 { --_bg: 2; }
+	.sm-bg-3 { --_bg: 3; }
+	.sm-bg-4 { --_bg: 4; }
+	.sm-bg-5 { --_bg: 5; }
+}
+@media (--md-n-above) {
+	.md-bg-n5 { --_bg: -5; }
+	.md-bg-n4 { --_bg: -4; }
+	.md-bg-n3 { --_bg: -3; }
+	.md-bg-n2 { --_bg: -2; }
+	.md-bg-n1 { --_bg: -1; }
+	.md-bg-1 { --_bg: 1; }
+	.md-bg-2 { --_bg: 2; }
+	.md-bg-3 { --_bg: 3; }
+	.md-bg-4 { --_bg: 4; }
+	.md-bg-5 { --_bg: 5; }
+}
+@media (--lg-n-above) {
+	.lg-bg-n5 { --_bg: -5; }
+	.lg-bg-n4 { --_bg: -4; }
+	.lg-bg-n3 { --_bg: -3; }
+	.lg-bg-n2 { --_bg: -2; }
+	.lg-bg-n1 { --_bg: -1; }
+	.lg-bg-1 { --_bg: 1; }
+	.lg-bg-2 { --_bg: 2; }
+	.lg-bg-3 { --_bg: 3; }
+	.lg-bg-4 { --_bg: 4; }
+	.lg-bg-5 { --_bg: 5; }
+}
+@media (--xl-n-above) {
+	.xl-bg-n5 { --_bg: -5; }
+	.xl-bg-n4 { --_bg: -4; }
+	.xl-bg-n3 { --_bg: -3; }
+	.xl-bg-n2 { --_bg: -2; }
+	.xl-bg-n1 { --_bg: -1; }
+	.xl-bg-1 { --_bg: 1; }
+	.xl-bg-2 { --_bg: 2; }
+	.xl-bg-3 { --_bg: 3; }
+	.xl-bg-4 { --_bg: 4; }
+	.xl-bg-5 { --_bg: 5; }
+}

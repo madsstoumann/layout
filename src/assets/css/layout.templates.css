@@ -1,0 +1,39 @@
+/**
+ * Layouts: Templates
+ * @version 1.0.00
+ * @summary 06-16-2022
+ * @author Mads Stoumann
+ * @description Sample Layouts, using the Layout Module
+*/
+@media (--sm-n-above){
+	.lay-A>*:first-child,
+	.lay-B >*:last-child { --_cs: 2; }
+	.lay-F >*:nth-child(3),
+	.lay-G >*:first-child { --_cs: 1; --_rs: 2; }
+	.lay-J >*:nth-child(1) { --_gc: 1 / span 7; --_gr: 1 / span 6; }
+	.lay-J >*:nth-child(2) { --_gc: 2 / span 5; --_gr: 6 / span 2; }
+}
+@media (--md-n-above) {
+	.lay-A >*:first-child,
+	.lay-B >*:nth-child(2) { --_cs: 2; --_rs: 2; }
+	.lay-B >*:last-child { --_cs: 1; }
+	.col-C >*:first-child,
+	.lay-C >*:first-child,
+	.lay-D >*:nth-child(2) { --_cs: 2; }
+	.lay-C >*:nth-child(2),
+	.lay-D >*:first-child,
+	.lay-E >*:first-child,
+	.lay-E >*:nth-child(3) { --_rs: 2; }
+	.lay-H >*:first-child,
+	.lay-I >*:nth-child(2) { --_cs: 2; --_rs: 3; }
+	.lay-K >*:nth-child(1) { --_gc: 1 / span 6; --_gr: 1 / span 6; }
+	.lay-K >*:nth-child(2) { --_gc: 6 / span 3; --_gr: 2 / span 4; }
+	.lay-L >*:nth-child(1) { --_gc: 2 / span 7; --_gr: 1 / span 8; }
+	.lay-L >*:nth-child(2) { --_gc: 1 / span 5; --_gr: 4 / span 1; }
+	.lay-M >*:nth-child(1) { --_gc: 1 / span 3; --_gr: 1 / span 2; }
+	.lay-M >*:nth-child(2) { --_gc: 3 / span 3; --_gr: 2 / span 2; }
+	.lay-M >*:nth-child(3) { --_gc: 5 / span 3; --_gr: 3 / span 3; }
+	.lay-N >*:nth-child(1) { --_gc: 1 / span 4; --_gr: 1 / span 8; }
+	.lay-N >*:nth-child(2) { --_gc: 4 / span 4; --_gr: 4 / span 4; }
+	.lay-N >*:nth-child(3) { --_gc: 6 / span 2; --_gr: 8 / span 1; }
+}

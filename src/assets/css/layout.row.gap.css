@@ -1,0 +1,62 @@
+/**
+ * Layout: Row Gap
+ * @version 1.0.00
+ * @summary 06-15-2022
+ * @author Mads Stoumann
+ * @description Change the row-gap in a layout, based on breakpoints:
+ * .xs-rg-[x] .sm-rg-[x], .md-rg-[x], .lg-rg-[x], .xl-rg-[x]
+*/
+.xs-rg-0 { --_rg: 0; }
+.xs-rg-1 { --_rg: 1; }
+.xs-rg-2 { --_rg: 2; }
+.xs-rg-3 { --_rg: 3; }
+.xs-rg-4 { --_rg: 4; }
+.xs-rg-5 { --_rg: 5; }
+.xs-rg-6 { --_rg: 6; }
+.xs-rg-7 { --_rg: 7; }
+.xs-rg-8 { --_rg: 8; }
+
+@media (--sm-n-above) {
+	.sm-rg-0 { --_rg: 0; }
+	.sm-rg-1 { --_rg: 1; }
+	.sm-rg-2 { --_rg: 2; }
+	.sm-rg-3 { --_rg: 3; }
+	.sm-rg-4 { --_rg: 4; }
+	.sm-rg-5 { --_rg: 5; }
+	.sm-rg-6 { --_rg: 6; }
+	.sm-rg-7 { --_rg: 7; }
+	.sm-rg-8 { --_rg: 8; }
+}
+@media (--md-n-above) {
+	.md-rg-0 { --_rg: 0; }
+	.md-rg-1 { --_rg: 1; }
+	.md-rg-2 { --_rg: 2; }
+	.md-rg-3 { --_rg: 3; }
+	.md-rg-4 { --_rg: 4; }
+	.md-rg-5 { --_rg: 5; }
+	.md-rg-6 { --_rg: 6; }
+	.md-rg-7 { --_rg: 7; }
+	.md-rg-8 { --_rg: 8; }
+}
+@media (--lg-n-above) {
+	.lg-rg-0 { --_rg: 0; }
+	.lg-rg-1 { --_rg: 1; }
+	.lg-rg-2 { --_rg: 2; }
+	.lg-rg-3 { --_rg: 3; }
+	.lg-rg-4 { --_rg: 4; }
+	.lg-rg-5 { --_rg: 5; }
+	.lg-rg-6 { --_rg: 6; }
+	.lg-rg-7 { --_rg: 7; }
+	.lg-rg-8 { --_rg: 8; }
+}
+@media (--xl-n-above) {
+	.xl-rg-0 { --_rg: 0; }
+	.xl-rg-1 { --_rg: 1; }
+	.xl-rg-2 { --_rg: 2; }
+	.xl-rg-3 { --_rg: 3; }
+	.xl-rg-4 { --_rg: 4; }
+	.xl-rg-5 { --_rg: 5; }
+	.xl-rg-6 { --_rg: 6; }
+	.xl-rg-7 { --_rg: 7; }
+	.xl-rg-8 { --_rg: 8; }
+}

@@ -1,0 +1,25 @@
+/**
+ * Layout: Padding
+ * @version 1.0.00
+ * @summary 06-16-2022
+ * @author Mads Stoumann
+ * @description Fine-control padding with multiplication factor for each side. Can be added to any element.
+*/
+@import 'layout.padding.xs.css';
+@import 'layout.padding.sm.css';
+@import 'layout.padding.md.css';
+@import 'layout.padding.lg.css';
+@import 'layout.padding.xl.css';
+
+[class*="-p-"],
+[class*="-pb-"], 
+[class*="-pi-"],
+[class*="-pbs-"],
+[class*="-pbe-"],
+[class*="-pis-"],
+[class*="-pie-"] {
+  padding-block-start: calc(var(--_pbs, 0) * var(--layout-padding-unit));
+  padding-block-end: calc(var(--_pbe, 0) * var(--layout-padding-unit));
+  padding-inline-start: calc(var(--_pis, 0) * var(--layout-padding-unit));
+  padding-inline-end: calc(var(--_pie, 0) * var(--layout-padding-unit));
+}

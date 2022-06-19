@@ -1,0 +1,26 @@
+{
+    "name": "layout",
+    "description": "Layout System",
+    "background_color": "hsl(220, 90%, 50%)",
+    "categories": ["business", "productivity"],
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "assets/favicon/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/favicon/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+      "id": "/",
+    "lang": "en-US",
+    "orientation": "any",
+    "short_name": "browser.style: layout",
+    "start_url": "/",
+    "theme_color": "hsl(220, 90%, 50%)",
+    "url": "layout.browser.style"
+  }

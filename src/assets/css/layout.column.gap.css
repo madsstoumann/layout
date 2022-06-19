@@ -1,0 +1,62 @@
+/**
+ * Layout: Column Gap
+ * @version 1.0.00
+ * @summary 06-16-2022
+ * @author Mads Stoumann
+ * @description Change the column-gap in a layout, based on breakpoints:
+ * .xs-cg-[x] .sm-cg-[x], .md-cg-[x], .lg-cg-[x], .xl-cg-[x]
+*/
+.xs-cg-0 { --_cg: 0; }
+.xs-cg-1 { --_cg: 1; }
+.xs-cg-2 { --_cg: 2; }
+.xs-cg-3 { --_cg: 3; }
+.xs-cg-4 { --_cg: 4; }
+.xs-cg-5 { --_cg: 5; }
+.xs-cg-6 { --_cg: 6; }
+.xs-cg-7 { --_cg: 7; }
+.xs-cg-8 { --_cg: 8; }
+
+@media (--sm-n-above) {
+	.sm-cg-0 { --_cg: 0; }
+	.sm-cg-1 { --_cg: 1; }
+	.sm-cg-2 { --_cg: 2; }
+	.sm-cg-3 { --_cg: 3; }
+	.sm-cg-4 { --_cg: 4; }
+	.sm-cg-5 { --_cg: 5; }
+	.sm-cg-6 { --_cg: 6; }
+	.sm-cg-7 { --_cg: 7; }
+	.sm-cg-8 { --_cg: 8; }
+}
+@media (--md-n-above) {
+	.md-cg-0 { --_cg: 0; }
+	.md-cg-1 { --_cg: 1; }
+	.md-cg-2 { --_cg: 2; }
+	.md-cg-3 { --_cg: 3; }
+	.md-cg-4 { --_cg: 4; }
+	.md-cg-5 { --_cg: 5; }
+	.md-cg-6 { --_cg: 6; }
+	.md-cg-7 { --_cg: 7; }
+	.md-cg-8 { --_cg: 8; }
+}
+@media (--lg-n-above) {
+	.lg-cg-0 { --_cg: 0; }
+	.lg-cg-1 { --_cg: 1; }
+	.lg-cg-2 { --_cg: 2; }
+	.lg-cg-3 { --_cg: 3; }
+	.lg-cg-4 { --_cg: 4; }
+	.lg-cg-5 { --_cg: 5; }
+	.lg-cg-6 { --_cg: 6; }
+	.lg-cg-7 { --_cg: 7; }
+	.lg-cg-8 { --_cg: 8; }
+}
+@media (--xl-n-above) {
+	.xl-cg-0 { --_cg: 0; }
+	.xl-cg-1 { --_cg: 1; }
+	.xl-cg-2 { --_cg: 2; }
+	.xl-cg-3 { --_cg: 3; }
+	.xl-cg-4 { --_cg: 4; }
+	.xl-cg-5 { --_cg: 5; }
+	.xl-cg-6 { --_cg: 6; }
+	.xl-cg-7 { --_cg: 7; }
+	.xl-cg-8 { --_cg: 8; }
+}

@@ -1,0 +1,71 @@
+@media (--lg-n-above) {
+	.lg-pbs-0 { --_pbs: 0; }
+	.lg-pbs-1 { --_pbs: 1; }
+	.lg-pbs-2 { --_pbs: 2; }
+	.lg-pbs-3 { --_pbs: 3; }
+	.lg-pbs-4 { --_pbs: 4; }
+	.lg-pbs-5 { --_pbs: 5; }
+	.lg-pbs-6 { --_pbs: 6; }
+	.lg-pbs-7 { --_pbs: 7; }
+	.lg-pbs-8 { --_pbs: 8; }
+
+	.lg-pbe-0 { --_pbe: 0; }
+	.lg-pbe-1 { --_pbe: 1; }
+	.lg-pbe-2 { --_pbe: 2; }
+	.lg-pbe-3 { --_pbe: 3; }
+	.lg-pbe-4 { --_pbe: 4; }
+	.lg-pbe-5 { --_pbe: 5; }
+	.lg-pbe-6 { --_pbe: 6; }
+	.lg-pbe-7 { --_pbe: 7; }
+	.lg-pbe-8 { --_pbe: 8; }
+
+	.lg-pis-0 { --_pis: 0; }
+	.lg-pis-1 { --_pis: 1; }
+	.lg-pis-2 { --_pis: 2; }
+	.lg-pis-3 { --_pis: 3; }
+	.lg-pis-4 { --_pis: 4; }
+	.lg-pis-5 { --_pis: 5; }
+	.lg-pis-6 { --_pis: 6; }
+	.lg-pis-7 { --_pis: 7; }
+	.lg-pis-8 { --_pis: 8; }
+
+	.lg-pie-0 { --_pie: 0; }
+	.lg-pie-1 { --_pie: 1; }
+	.lg-pie-2 { --_pie: 2; }
+	.lg-pie-3 { --_pie: 3; }
+	.lg-pie-4 { --_pie: 4; }
+	.lg-pie-5 { --_pie: 5; }
+	.lg-pie-6 { --_pie: 6; }
+	.lg-pie-7 { --_pie: 7; }
+	.lg-pie-8 { --_pie: 8; }
+
+	.lg-pb-0 { --_pbs: 0; --_pbe: 0; }
+	.lg-pb-1 { --_pbs: 1; --_pbe: 1; }
+	.lg-pb-2 { --_pbs: 2; --_pbe: 2; }
+	.lg-pb-3 { --_pbs: 3; --_pbe: 3; }
+	.lg-pb-4 { --_pbs: 4; --_pbe: 4; }
+	.lg-pb-5 { --_pbs: 5; --_pbe: 5; }
+	.lg-pb-6 { --_pbs: 6; --_pbe: 6; }
+	.lg-pb-7 { --_pbs: 7; --_pbe: 7; }
+	.lg-pb-8 { --_pbs: 8; --_pbe: 8; }
+
+	.lg-pi-0 { --_pis: 0; --_pie: 0; }
+	.lg-pi-1 { --_pis: 1; --_pie: 1; }
+	.lg-pi-2 { --_pis: 2; --_pie: 2; }
+	.lg-pi-3 { --_pis: 3; --_pie: 3; }
+	.lg-pi-4 { --_pis: 4; --_pie: 4; }
+	.lg-pi-5 { --_pis: 5; --_pie: 5; }
+	.lg-pi-6 { --_pis: 6; --_pie: 6; }
+	.lg-pi-7 { --_pis: 7; --_pie: 7; }
+	.lg-pi-8 { --_pis: 8; --_pie: 8; }
+
+	.lg-p-0 { --_pbs: 0; --_pbe: 0; --_pis: 0; --_pie: 0; }
+	.lg-p-1 { --_pbs: 1; --_pbe: 1; --_pis: 1; --_pie: 1; }
+	.lg-p-2 { --_pbs: 2; --_pbe: 2; --_pis: 2; --_pie: 2; }
+	.lg-p-3 { --_pbs: 3; --_pbe: 3; --_pis: 3; --_pie: 3; }
+	.lg-p-4 { --_pbs: 4; --_pbe: 4; --_pis: 4; --_pie: 4; }
+	.lg-p-5 { --_pbs: 5; --_pbe: 5; --_pis: 5; --_pie: 5; }
+	.lg-p-6 { --_pbs: 6; --_pbe: 6; --_pis: 6; --_pie: 6; }
+	.lg-p-7 { --_pbs: 7; --_pbe: 7; --_pis: 7; --_pie: 7; }
+	.lg-p-8 { --_pbs: 8; --_pbe: 8; --_pis: 8; --_pie: 8; }
+}
