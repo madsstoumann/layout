@@ -134,6 +134,17 @@ To fine-control the gap _between_ components _within__ a layout, you can use the
 
 ---
 
+## Column Span
+To fine-control how much a column _spans_, you can use the multiplier-classes: 
+
+- `xs-cs-1` ... `xs-cs-12`
+- `sm-cs-1` ... `sm-cs-12`
+- `md-cs-1` ... `md-cs-12`
+- `lg-cs-1` ... `lg-cs-12`
+- `xl-cs-1` ... `xl-cs-12`
+
+---
+
 ## Row Gaps
 To fine-control the gap _between_ rows of components _within__ a layout, you can use the multiplier-classes: 
 
@@ -142,6 +153,17 @@ To fine-control the gap _between_ rows of components _within__ a layout, you can
 - `md-rg-1` ... `md-rg-8`
 - `lg-rg-1` ... `lg-rg-8`
 - `xl-rg-1` ... `xl-rg-8`
+
+---
+
+## Row Span
+To fine-control how much a column-row _spans_, you can use the multiplier-classes: 
+
+- `xs-rs-1` ... `xs-rs-6`
+- `sm-rs-1` ... `sm-rs-6`
+- `md-rs-1` ... `md-rs-6`
+- `lg-rs-1` ... `lg-rs-6`
+- `xl-rs-1` ... `xl-rs-6`
 
 ---
 
