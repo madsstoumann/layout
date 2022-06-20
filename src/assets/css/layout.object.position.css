@@ -21,7 +21,7 @@
 .xs-op-bc { --_op: 50% 100%; }
 .xs-op-br { --_op: 100% 100%; }
 
-@media (--sm-n-above) {
+@media (min-width: 480px) {
 	.sm-op-tl { --_op: 0% 0%; }
 	.sm-op-tc { --_op: 50% 0%; }
 	.sm-op-tr { --_op: 100% 0%; }
@@ -33,7 +33,7 @@
 	.sm-op-br { --_op: 100% 100%; }
 }
 
-@media (--md-n-above) {
+@media (min-width: 768px) {
 	.md-op-tl { --_op: 0% 0%; }
 	.md-op-tc { --_op: 50% 0%; }
 	.md-op-tr { --_op: 100% 0%; }
@@ -45,7 +45,7 @@
 	.md-op-br { --_op: 100% 100%; }
 }
 
-@media (--lg-n-above) {
+@media (min-width: 1024px) {
 	.lg-op-tl { --_op: 0% 0%; }
 	.lg-op-tc { --_op: 50% 0%; }
 	.lg-op-tr { --_op: 100% 0%; }
@@ -57,7 +57,7 @@
 	.lg-op-br { --_op: 100% 100%; }
 }
 
-@media (--xl-n-above) {
+@media (min-width: 1440px) {
 	.xl-op-tl { --_op: 0% 0%; }
 	.xl-op-tc { --_op: 50% 0%; }
 	.xl-op-tr { --_op: 100% 0%; }

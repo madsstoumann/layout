@@ -1,4 +1,4 @@
-@media (--xl-n-above) {
+@media (min-width: 1440px) {
 	.xl-pbs-0 { --_pbs: 0; }
 	.xl-pbs-1 { --_pbs: 1; }
 	.xl-pbs-2 { --_pbs: 2; }

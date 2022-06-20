@@ -19,7 +19,7 @@
 .xs-cl-11 { --_c: 11; }
 .xs-cl-12 { --_c: 12; }
 
-@media (--sm-n-above) {
+@media (min-width: 480px) {
 	.sm-cl-1 { --_c: 1; }
 	.sm-cl-2 { --_c: 2; }
 	.sm-cl-3 { --_c: 3; }
@@ -33,7 +33,7 @@
 	.sm-cl-11 { --_c: 11; }
 	.sm-cl-12 { --_c: 12; }
 }
-@media (--md-n-above) {
+@media (min-width: 768px) {
 	.md-cl-1 { --_c: 1; }
 	.md-cl-2 { --_c: 2; }
 	.md-cl-3 { --_c: 3; }
@@ -47,7 +47,7 @@
 	.md-cl-11 { --_c: 11; }
 	.md-cl-12 { --_c: 12; }
 }
-@media (--lg-n-above) {
+@media (min-width: 1024px) {
 	.lg-cl-1 { --_c: 1; }
 	.lg-cl-2 { --_c: 2; }
 	.lg-cl-3 { --_c: 3; }
@@ -61,7 +61,7 @@
 	.lg-cl-11 { --_c: 11; }
 	.lg-cl-12 { --_c: 12; }
 }
-@media (--xl-n-above) {
+@media (min-width: 1440px) {
 	.xl-cl-1 { --_c: 1; }
 	.xl-cl-2 { --_c: 2; }
 	.xl-cl-3 { --_c: 3; }

@@ -1,9 +1,9 @@
 :where(html) {
 	--size-xxs: 240px;
-	--size-xs: 360px;
-	--size-sm: 480px;
+	--size-xs: 360px; /* use xs- for default sizes */
+	--size-sm: 480px; /* first breakpoint */
 	--size-md: 768px;
 	--size-lg: 1024px;
-	--size-xl: 1440px;
+	--size-xl: 1440px; /* last breakpoint */
 	--size-xxl: 1920px;
 }

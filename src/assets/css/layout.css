@@ -1,7 +1,7 @@
 /**
  * Layout: Main
- * @version 1.0.00
- * @summary 06-19-2022
+ * @version 1.0.01
+ * @summary 06-20-2022
  * @author Mads Stoumann
  * @requires `props.layout.css`, `props.media.css`, `props.sizes.css`
  * @description Adds a grid-based page layout to `<main>` with row-gap between layout-components.
@@ -16,20 +16,10 @@
 @import 'layout.object.position.css';
 @import 'layout.padding.css';
 @import 'layout.row.gap.css';
-/* @import 'layout.row.span.css'; */
+@import 'layout.row.span.css';
 @import 'layout.templates.css';
 @import 'layout.widths.css';
 
-/* MAIN GRID */
-:where(main) {
-	align-self: start;
-	display: grid;
-	grid-auto-flow: dense;
-	margin-block-end: calc(var(--_pg, 1) * var(--layout-block-gap));
-	row-gap: calc(var(--_pg, 1) * var(--layout-block-gap));
-}
-
-/* LAYOUTS */
 .ly-column {
 	column-count: var(--_c, 1);
 	column-gap: calc(var(--_cg, 1) * var(--layout-col-gap));
@@ -69,6 +59,13 @@
 /* TODO! */
 /* .ly-auto { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); } */
 .ly-grow { --_pi: calc((var(--_pis, 0) * var(--layout-padding-unit)) + (var(--_pie, 0) * var(--layout-padding-unit))); }
+.ly-main {
+	align-self: start;
+	display: grid;
+	grid-auto-flow: dense;
+	margin-block-end: calc(var(--_pg, 1) * var(--layout-block-gap));
+	row-gap: calc(var(--_pg, 1) * var(--layout-block-gap));
+}
 .ly-slider {
 	overflow-y: hidden;
 	scroll-snap-type: x mandatory;
@@ -76,7 +73,4 @@
 .ly-slider[class*="-cg-0"] >* { flex: 0 0 calc((100% / var(--_c, 1))); }
 .ly-slider.ly-slider-next >* { --_w: calc((0.15 * var(--_c, 1)) + var(--_c, 1)); }
 .ly-subgrid { align-content: baseline; }
-.ly-wrapper {
-	/* --_mis: 100%; */
-	overflow: hidden;
-}
+.ly-wrapper { overflow: hidden; }

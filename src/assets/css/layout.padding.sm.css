@@ -1,4 +1,4 @@
-@media (--sm-n-above) {
+@media (min-width: 480px) {
 	.sm-pbs-0 { --_pbs: 0; }
 	.sm-pbs-1 { --_pbs: 1; }
 	.sm-pbs-2 { --_pbs: 2; }

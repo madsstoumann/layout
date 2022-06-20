@@ -1,4 +1,4 @@
-@media (--lg-n-above) {
+@media (min-width: 1024px) {
 	.lg-pbs-0 { --_pbs: 0; }
 	.lg-pbs-1 { --_pbs: 1; }
 	.lg-pbs-2 { --_pbs: 2; }

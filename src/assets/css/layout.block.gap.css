@@ -21,7 +21,7 @@
 .xs-bg-4 { --_bg: 4; }
 .xs-bg-5 { --_bg: 5; }
 
-@media (--sm-n-above) {
+@media (min-width: 480px) {
 	.sm-bg-n5 { --_bg: -5; }
 	.sm-bg-n4 { --_bg: -4; }
 	.sm-bg-n3 { --_bg: -3; }
@@ -33,7 +33,7 @@
 	.sm-bg-4 { --_bg: 4; }
 	.sm-bg-5 { --_bg: 5; }
 }
-@media (--md-n-above) {
+@media (min-width: 768px) {
 	.md-bg-n5 { --_bg: -5; }
 	.md-bg-n4 { --_bg: -4; }
 	.md-bg-n3 { --_bg: -3; }
@@ -45,7 +45,7 @@
 	.md-bg-4 { --_bg: 4; }
 	.md-bg-5 { --_bg: 5; }
 }
-@media (--lg-n-above) {
+@media (min-width: 1024px) {
 	.lg-bg-n5 { --_bg: -5; }
 	.lg-bg-n4 { --_bg: -4; }
 	.lg-bg-n3 { --_bg: -3; }
@@ -57,7 +57,7 @@
 	.lg-bg-4 { --_bg: 4; }
 	.lg-bg-5 { --_bg: 5; }
 }
-@media (--xl-n-above) {
+@media (min-width: 1440px) {
 	.xl-bg-n5 { --_bg: -5; }
 	.xl-bg-n4 { --_bg: -4; }
 	.xl-bg-n3 { --_bg: -3; }

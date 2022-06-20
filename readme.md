@@ -5,20 +5,7 @@ This is a system to manage layouts … and spacing — both _between_ and _withi
 ---
 
 ## Install and run
-
-```
-$npm i
-$npm run dev
-```
-
----
-
-## Build and Test
-
-```
-$npm run build
-$npm run preview
-```
+It's all vanilla CSS, no need to build anything.
 
 ---
 
@@ -49,8 +36,7 @@ These double as widths, you can set on a given layout. More on that later.
 ---
 
 ## Main Grid
-The system adds `display:grid` to the `<main>`-element, and uses the `--layout-block-gap`-property as `row-gap`. Since `row-gap` is **not** added to the end of a grid, the same value is used for `margin-block-end`.
-
+Add the class `ly-main` to the main wrapper of your grid, typically the `<main>`-element. It adds `display:grid` to the element amd use the `--layout-block-gap`-property as `row-gap`. Since `row-gap` is **not** added to the end of a grid, the same value is used for `margin-block-end`.
 
 ---
 

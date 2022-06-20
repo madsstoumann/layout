@@ -1,11 +1,11 @@
 /**
  * Layouts: Templates
- * @version 1.0.00
- * @summary 06-16-2022
+ * @version 1.0.01
+ * @summary 06-20-2022
  * @author Mads Stoumann
  * @description Sample Layouts, using the Layout Module
 */
-@media (--sm-n-above){
+@media (min-width: 480px){
 	.col-A >*:last-child,
 	.col-B >*:last-child,
 	.lay-A >*:first-child,
@@ -16,7 +16,7 @@
 	.lay-J >*:nth-child(1) { --_gc: 1 / span 7; --_gr: 1 / span 6; }
 	.lay-J >*:nth-child(2) { --_gc: 2 / span 5; --_gr: 6 / span 2; }
 }
-@media (--md-n-above) {
+@media (min-width: 768px) {
 	.col-A >*:last-child,
 	.lay-B >*:last-child,
 	.col-B >*:nth-child(4),
