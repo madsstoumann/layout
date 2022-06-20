@@ -1,0 +1,78 @@
+/**
+ * Layout: Column Span
+ * @version 1.0.00
+ * @summary 06-20-2022
+ * @author Mads Stoumann
+ * @description Change the column-span of a column.
+ * .xs-cs-[x] .sm-cs-[x], .md-cs-[x], .lg-cs-[x], .xl-cs-[x]
+*/
+
+.xs-cs-1 { --_cs: 1; }
+.xs-cs-2 { --_cs: 2; }
+.xs-cs-3 { --_cs: 3; }
+.xs-cs-4 { --_cs: 4; }
+.xs-cs-5 { --_cs: 5; }
+.xs-cs-6 { --_cs: 6; }
+.xs-cs-7 { --_cs: 7; }
+.xs-cs-8 { --_cs: 8; }
+.xs-cs-9 { --_cs: 9; }
+.xs-cs-10 { --_cs: 10; }
+.xs-cs-11 { --_cs: 11; }
+.xs-cs-12 { --_cs: 12; }
+
+@media (--sm-n-above) {
+	.sm-cs-1 { --_cs: 1; }
+	.sm-cs-2 { --_cs: 2; }
+	.sm-cs-3 { --_cs: 3; }
+	.sm-cs-4 { --_cs: 4; }
+	.sm-cs-5 { --_cs: 5; }
+	.sm-cs-6 { --_cs: 6; }
+	.sm-cs-7 { --_cs: 7; }
+	.sm-cs-8 { --_cs: 8; }
+	.sm-cs-9 { --_cs: 9; }
+	.sm-cs-10 { --_cs: 10; }
+	.sm-cs-11 { --_cs: 11; }
+	.sm-cs-12 { --_cs: 12; }
+}
+@media (--md-n-above) {
+	.md-cs-1 { --_cs: 1; }
+	.md-cs-2 { --_cs: 2; }
+	.md-cs-3 { --_cs: 3; }
+	.md-cs-4 { --_cs: 4; }
+	.md-cs-5 { --_cs: 5; }
+	.md-cs-6 { --_cs: 6; }
+	.md-cs-7 { --_cs: 7; }
+	.md-cs-8 { --_cs: 8; }
+	.md-cs-9 { --_cs: 9; }
+	.md-cs-10 { --_cs: 10; }
+	.md-cs-11 { --_cs: 11; }
+	.md-cs-12 { --_cs: 12; }
+}
+@media (--lg-n-above) {
+	.lg-cs-1 { --_cs: 1; }
+	.lg-cs-2 { --_cs: 2; }
+	.lg-cs-3 { --_cs: 3; }
+	.lg-cs-4 { --_cs: 4; }
+	.lg-cs-5 { --_cs: 5; }
+	.lg-cs-6 { --_cs: 6; }
+	.lg-cs-7 { --_cs: 7; }
+	.lg-cs-8 { --_cs: 8; }
+	.lg-cs-9 { --_cs: 9; }
+	.lg-cs-10 { --_cs: 10; }
+	.lg-cs-11 { --_cs: 11; }
+	.lg-cs-12 { --_cs: 12; }
+}
+@media (--xl-n-above) {
+	.xl-cs-1 { --_cs: 1; }
+	.xl-cs-2 { --_cs: 2; }
+	.xl-cs-3 { --_cs: 3; }
+	.xl-cs-4 { --_cs: 4; }
+	.xl-cs-5 { --_cs: 5; }
+	.xl-cs-6 { --_cs: 6; }
+	.xl-cs-7 { --_cs: 7; }
+	.xl-cs-8 { --_cs: 8; }
+	.xl-cs-9 { --_cs: 9; }
+	.xl-cs-10 { --_cs: 10; }
+	.xl-cs-11 { --_cs: 11; }
+	.xl-cs-12 { --_cs: 12; }
+}

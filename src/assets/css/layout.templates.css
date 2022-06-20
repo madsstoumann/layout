@@ -6,18 +6,23 @@
  * @description Sample Layouts, using the Layout Module
 */
 @media (--sm-n-above){
-	.lay-A>*:first-child,
-	.lay-B >*:last-child { --_cs: 2; }
+	.col-A >*:last-child,
+	.col-B >*:last-child,
+	.lay-A >*:first-child,
+	.lay-B >*:last-child,
+	.lay-M >*:last-child { --_cs: 2; }
 	.lay-F >*:nth-child(3),
 	.lay-G >*:first-child { --_cs: 1; --_rs: 2; }
 	.lay-J >*:nth-child(1) { --_gc: 1 / span 7; --_gr: 1 / span 6; }
 	.lay-J >*:nth-child(2) { --_gc: 2 / span 5; --_gr: 6 / span 2; }
 }
 @media (--md-n-above) {
+	.col-A >*:last-child,
+	.lay-B >*:last-child,
+	.col-B >*:nth-child(4),
+	.col-B >*:nth-child(5) { --_cs: 1; }
 	.lay-A >*:first-child,
-	.lay-B >*:nth-child(2) { --_cs: 2; --_rs: 2; }
-	.lay-B >*:last-child { --_cs: 1; }
-	.col-C >*:first-child,
+	.lay-B >*:nth-child(2) { --_cs: 2; --_rs: 2; }	
 	.lay-C >*:first-child,
 	.lay-D >*:nth-child(2) { --_cs: 2; }
 	.lay-C >*:nth-child(2),

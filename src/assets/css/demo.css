@@ -25,6 +25,8 @@
 	max-inline-size: 100%;
 	min-block-size: 14rem;
 }
+[data-content="small"] { min-block-size: 3rem; }
+
 :where([data-content]:nth-of-type(1)) { background: cornflowerblue; }
 :where([data-content]:nth-of-type(2)) { background: lightgreen; }
 :where([data-content]:nth-of-type(3)) { background: lightblue; }

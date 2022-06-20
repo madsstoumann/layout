@@ -9,12 +9,14 @@
 */
 @import 'layout.align.justify.css';
 @import 'layout.aspect.ratio.css';
-@import 'layout.column.css';
-@import 'layout.column.gap.css';
 @import 'layout.block.gap.css';
+@import 'layout.column.css';
+@import 'layout.column.span.css';
+@import 'layout.column.gap.css';
 @import 'layout.object.position.css';
 @import 'layout.padding.css';
 @import 'layout.row.gap.css';
+/* @import 'layout.row.span.css'; */
 @import 'layout.templates.css';
 @import 'layout.widths.css';
 
@@ -64,6 +66,8 @@
 	grid-row: var(--_gr, span var(--_rs, 1));
 	position: relative;
 }
+/* TODO! */
+/* .ly-auto { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); } */
 .ly-grow { --_pi: calc((var(--_pis, 0) * var(--layout-padding-unit)) + (var(--_pie, 0) * var(--layout-padding-unit))); }
 .ly-slider {
 	overflow-y: hidden;
@@ -72,4 +76,7 @@
 .ly-slider[class*="-cg-0"] >* { flex: 0 0 calc((100% / var(--_c, 1))); }
 .ly-slider.ly-slider-next >* { --_w: calc((0.15 * var(--_c, 1)) + var(--_c, 1)); }
 .ly-subgrid { align-content: baseline; }
-.ly-wrapper { overflow: hidden; }
+.ly-wrapper {
+	/* --_mis: 100%; */
+	overflow: hidden;
+}

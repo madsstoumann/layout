@@ -1,0 +1,48 @@
+/**
+ * Layout: Row Span
+ * @version 1.0.00
+ * @summary 06-20-2022
+ * @author Mads Stoumann
+ * @description Change the row-span of an element.
+ * .xs-rs-[x] .sm-rs-[x], .md-rs-[x], .lg-rs-[x], .xl-rs-[x]
+*/
+
+.xs-rs-1 { --_cs: 1; }
+.xs-rs-2 { --_cs: 2; }
+.xs-rs-3 { --_cs: 3; }
+.xs-rs-4 { --_cs: 4; }
+.xs-rs-5 { --_cs: 5; }
+.xs-rs-6 { --_cs: 6; }
+
+@media (--sm-n-above) {
+	.sm-rs-1 { --_cs: 1; }
+	.sm-rs-2 { --_cs: 2; }
+	.sm-rs-3 { --_cs: 3; }
+	.sm-rs-4 { --_cs: 4; }
+	.sm-rs-5 { --_cs: 5; }
+	.sm-rs-6 { --_cs: 6; }
+}
+@media (--md-n-above) {
+	.md-rs-1 { --_cs: 1; }
+	.md-rs-2 { --_cs: 2; }
+	.md-rs-3 { --_cs: 3; }
+	.md-rs-4 { --_cs: 4; }
+	.md-rs-5 { --_cs: 5; }
+	.md-rs-6 { --_cs: 6; }
+}
+@media (--lg-n-above) {
+	.lg-rs-1 { --_cs: 1; }
+	.lg-rs-2 { --_cs: 2; }
+	.lg-rs-3 { --_cs: 3; }
+	.lg-rs-4 { --_cs: 4; }
+	.lg-rs-5 { --_cs: 5; }
+	.lg-rs-6 { --_cs: 6; }
+}
+@media (--xl-n-above) {
+	.xl-rs-1 { --_cs: 1; }
+	.xl-rs-2 { --_cs: 2; }
+	.xl-rs-3 { --_cs: 3; }
+	.xl-rs-4 { --_cs: 4; }
+	.xl-rs-5 { --_cs: 5; }
+	.xl-rs-6 { --_cs: 6; }
+}

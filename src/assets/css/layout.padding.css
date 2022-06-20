@@ -23,3 +23,8 @@
   padding-inline-start: calc(var(--_pis, 0) * var(--layout-padding-unit));
   padding-inline-end: calc(var(--_pie, 0) * var(--layout-padding-unit));
 }
+/* TODO! */
+.ly-p-safe {
+  padding-inline-start: calc((var(--_pis, 0) * var(--layout-padding-unit)) + env(safe-area-inset-left)); 
+  padding-inline-end: calc((var(--_pie, 0) * var(--layout-padding-unit)) + env(safe-area-inset-right)); 
+}

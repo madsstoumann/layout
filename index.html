@@ -119,7 +119,7 @@
 				</div>
 			</div>
 
-			<div class="headline ly-flex wd-lg xs-pi-1 lg-pi-0">
+			<div class="headline ly-flex ly-grow wd-lg xs-p-1 xs-bg-n1">
 				<h1>Layouts</h1>
 				<code>ly-grid lay-[X]</code>
 			</div>
@@ -214,20 +214,52 @@
 				<div style="background-color:lightblue;" class="xs-ar-16_9"><h2>N3</h2></div>
 			</div>
 
-			<div class="wd-lg ly-grid">
-				<div data-content><h2>1</h2></div>
-				<div data-content><h2>2</h2></div>
+			<div class="headline ly-flex ly-grow wd-lg xs-pi-1">
+				<h1>Column Patterns</h1>
+				<code>ly-grid.col-[x]</code>
 			</div>
 
-			<div class="wd-lg ly-grid darkblue xs-pi-1 xs-pbs-1 xs-bg-n1">
-				<div data-content><h2>1</h2></div>
+			<div class="wd-lg ly-grid ly-auto ly-grow xs-pi-1">
+				<div data-content><h2>auto</h2></div>
 				<div data-content><h2>2</h2></div>
+				<div data-content><h2>3</h2></div>
 			</div>
 
-			<div class="wd-lg ly-grid xs-p-1 darkblue">
+			<!-- <div class="wd-lg ly-grid ly-grow darkblue xs-p-1">
+				<div data-content><h2>1</h2></div>
+				<div data-content><h2>2</h2></div>
+			</div> -->
+
+			<div class="wd-lg ly-grid col-A xs-cl-1 sm-cl-2 md-cl-3 xs-pi-1 ly-grow">
+				<div data-content><h2>A1</h2></div>
+				<div data-content><h2>A2</h2></div>
+				<div data-content><h2>A3</h2></div>
+			</div>
+
+			<div class="wd-lg ly-grid col-B xs-cl-1 sm-cl-2 md-cl-3 lg-cl-5 xs-pi-1 ly-grow">
+				<div data-content><h2>B1</h2></div>
+				<div data-content><h2>B2</h2></div>
+				<div data-content><h2>B3</h2></div>
+				<div data-content><h2>B4</h2></div>
+				<div data-content><h2>B5</h2></div>
+			</div>
+
+			<div class="wd-lg ly-grid ly-grow col-C xs-pi-1">
+				<div data-content><h2>C1</h2></div>
+				<div data-content><h2>C2</h2></div>
+				<div data-content><h2>C3</h2></div>
+				<div data-content><h2>C4</h2></div>
+				<div data-content><h2>C5</h2></div>
+				<div data-content><h2>C6</h2></div>
+			</div>
+
+
+			<!-- <div class="wd-lg ly-grid xs-pi-1 ly-grow xs-cl-2 md-cl-3 lg-cl-5">
 				<div data-content><h2>1</h2></div>
 				<div data-content><h2>2</h2></div>
 				<div data-content><h2>3</h2></div>
+				<div data-content><h2>4</h2></div>
+				<div data-content><h2>5</h2></div>
 			</div>
 
 			<div class="wd-lg ly-grid ly-grow xs-p-1 gradient xs-bg-2 xs-cl-2 md-cl-4">
@@ -243,19 +275,12 @@
 				<div data-content><h2>3</h2></div>
 				<div data-content><h2>4</h2></div>
 				<div data-content><h2>5</h2></div>
-			</div>
+			</div> -->
 
-			<div class="wd-lg ly-grid xs-cg-0">
-				<div data-content><h2>1</h2></div>
-				<div data-content><h2>2</h2></div>
-				<div data-content><h2>3</h2></div>
-				<div data-content><h2>4</h2></div>
-				<div data-content><h2>5</h2></div>
-				<div data-content><h2>6</h2></div>
-			</div>
 
-			<div class="darkblue wd-lg ly-grid xs-p-1 lg-p-2 xs-cg-1 lg-cg-2 xs-cl-1 md-cl-2 lg-cl-3">
 
+			<!-- <div class="darkblue wd-lg ly-grid xs-p-1 lg-p-2 xs-cg-1 lg-cg-2 xs-cl-1 md-cl-2 lg-cl-3"> -->
+				<div class="wd-lg ly-grid col-A xs-cl-1 sm-cl-2 md-cl-3 xs-p-1 lg-p-2 xs-cg-1 lg-cg-2 darkblue">
 				<div class="ly-subgrid">
 					<img alt="" src="https://picsum.photos/id/404/600/400" decode="async" loading="lazy" importance="low" class="xs-ar-16_9 lg-ar-1_1">
 					<strong>BREAKING NEWS</strong>
@@ -271,7 +296,7 @@
 				</div>
 
 				<div class="ly-subgrid">
-					<img alt="" src="https://picsum.photos/id/137/600/400" decode="async" loading="lazy" importance="low" class="xs-ar-16_9 lg-ar-1_1">
+					<img alt="" src="https://picsum.photos/id/137/600/400" decode="async" loading="lazy" importance="low" class="xs-ar-18_5 md-ar-16_9 lg-ar-1_1">
 					<strong>17 JUNE 2022</strong>
 					<h3>Lorem Ipsum wins award</h3>
 					<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsam nam saepe ut veritatis in, iusto quo rerum delectus eligendi aspernatur vero similique a voluptas alias impedit ex dolorum sit consequatur. Fugit, quia, provident, totam possimus nulla adipisci quod et optio nihil error repudiandae nobis nam. Ad est voluptatum obcaecati! </div>
@@ -279,7 +304,7 @@
 
 			</div>
 
-			<div class="darkblue ly-wrapper xs-pb-1">
+			<div class="darkblue ly-wrapper xs-pi-1">
 				<div class="wd-lg ly-grid">
 					<div data-content></div>
 					<div data-content></div>
@@ -292,9 +317,19 @@
 				</div>
 			</div>
 
+			<div class="ly-grid wd-md xs-cl-4 xs-pi-1 ly-grow">
+				<div data-content="small" class="xs-cs-4 md-cs-2"></div>
+				<div data-content="small" class="xs-cs-4 md-cs-2"></div>
+				<div data-content="small" class="xs-cs-4"></div>
+				<div data-content="small" class="xs-cs-4 md-cs-1"></div>
+				<div data-content="small" class="xs-cs-4 md-cs-3"></div>
+				<div data-content="small" class="xs-cs-4 md-cs-2"></div>
+				<div data-content="small" class="xs-cs-4 md-cs-2"></div>
+			</div>
+
 			<div data-content data-layout=""></div>
 		</main>
-
+<!-- 
 		<footer class="footer">
 			<div class="wd-lg ly-grid xs-pbs-1 xs-cl-2 md-cl-3 lg-cl-6">
 				<div data-content><h2>1</h2></div>
@@ -304,7 +339,7 @@
 				<div data-content><h2>5</h2></div>
 				<div data-content><h2>6</h2></div>
 			</div>
-		</footer>
+		</footer> -->
 
 		<script type="module" src="/main.js"></script>
 	</body>
