@@ -36,13 +36,13 @@
 	display: flex;
 	gap: calc(var(--_cg, 1) * var(--layout-col-gap));
 }
-.ly-flex-1 >* { flex: 1; }
 .ly-flex-cols >*,
 .ly-slider >* {
 	--_w:  var(--_c, 1);
 	flex: 0 0 calc((100% / var(--_w)) - (((var(--_w) - 1) / var(--_w)) * var(--layout-col-gap)));
 	scroll-snap-align: start;
 }
+.ly-flex-full >* { flex: 1; }
 .ly-flex-wrap { flex-wrap: wrap; }
 .ly-grid,
 .ly-subgrid {

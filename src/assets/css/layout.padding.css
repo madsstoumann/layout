@@ -1,7 +1,7 @@
 /**
  * Layout: Padding
- * @version 1.0.01
- * @summary 06-20-2022
+ * @version 1.0.02
+ * @summary 06-21-2022
  * @author Mads Stoumann
  * @description Fine-control padding with multiplication factor for each side. Can be added to any element.
 */
@@ -23,8 +23,7 @@
   padding-inline-start: calc(var(--_pis, 0) * var(--layout-padding-unit));
   padding-inline-end: calc(var(--_pie, 0) * var(--layout-padding-unit));
 }
-/* TODO! ADD to all direct children of .ly-main ? */
-.ly-p-safe {
+.ly-main >*:is([class*="-p-"], [class*="-pi-"], [class*="-pis-"], [class*="-pie-"], .ly-safe) {
   padding-inline-start: calc((var(--_pis, 0) * var(--layout-padding-unit)) + env(safe-area-inset-left)); 
   padding-inline-end: calc((var(--_pie, 0) * var(--layout-padding-unit)) + env(safe-area-inset-right)); 
 }

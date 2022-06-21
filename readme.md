@@ -52,9 +52,11 @@ To add a layout, add a child directly to the `<main>`-tag, with a `class` contai
 
 ### Modifiers
 
+- `ly-flex-full`. Adds `flex:1` to direct descendants of `ly-flex`
 - `ly-flex-cols`. Use column-classes with `ly-flex`
 - `ly-grow`. Expands a layout's `max-inline-size` with it's `padding-inline`-values. Use this to add a gap between the layout and device-edge on smaller devices.
 - `ly-flex-wrap`. Use `flex-wrap:wrap` with `ly-flex`
+- `ly-safe`. Adds `env()` safe-area to direct descendants of `ly-main` wothout some kind of `inline-padding``
 - `ly-slider-next`. use to show a preview of next item with `ly-slider`
 
 ---
