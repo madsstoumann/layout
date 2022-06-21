@@ -36,7 +36,7 @@
 	display: flex;
 	gap: calc(var(--_cg, 1) * var(--layout-col-gap));
 }
-.ly-flex >* { flex: 1; }
+.ly-flex-1 >* { flex: 1; }
 .ly-flex-cols >*,
 .ly-slider >* {
 	--_w:  var(--_c, 1);
@@ -56,8 +56,6 @@
 	grid-row: var(--_gr, span var(--_rs, 1));
 	position: relative;
 }
-/* TODO! */
-/* .ly-auto { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); column-gap: 0px; } */
 .ly-grow { --_pi: calc((var(--_pis, 0) * var(--layout-padding-unit)) + (var(--_pie, 0) * var(--layout-padding-unit))); }
 .ly-main {
 	align-self: start;
@@ -68,6 +66,7 @@
 }
 .ly-slider {
 	overflow-y: hidden;
+	scroll-behavior: smooth;
 	scroll-snap-type: x mandatory;
 }
 .ly-slider[class*="-cg-0"] >* { flex: 0 0 calc((100% / var(--_c, 1))); }
