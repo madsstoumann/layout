@@ -1,0 +1,84 @@
+/**
+ * Layout: Column End
+ * @version 1.0.01
+ * @summary 08-16-2022
+ * @author Mads Stoumann
+ * @description Change the column-end of a content-area.
+ * APPLY THIS TO A CONTENT AREA
+ * .xs-ce-[x] .sm-ce-[x], .md-ce-[x], .lg-ce-[x], .xl-ce-[x]
+*/
+
+.xs-ce-0 { --_ce: auto; }
+.xs-ce-1 { --_ce: 1; }
+.xs-ce-2 { --_ce: 2; }
+.xs-ce-3 { --_ce: 3; }
+.xs-ce-4 { --_ce: 4; }
+.xs-ce-5 { --_ce: 5; }
+.xs-ce-6 { --_ce: 6; }
+.xs-ce-7 { --_ce: 7; }
+.xs-ce-8 { --_ce: 8; }
+.xs-ce-9 { --_ce: 9; }
+.xs-ce-10 { --_ce: 10; }
+.xs-ce-11 { --_ce: 11; }
+.xs-ce-12 { --_ce: 12; }
+
+@media (min-width: 480px) {
+	.sm-ce-0 { --_ce: auto; }
+	.sm-ce-1 { --_ce: 1; }
+	.sm-ce-2 { --_ce: 2; }
+	.sm-ce-3 { --_ce: 3; }
+	.sm-ce-4 { --_ce: 4; }
+	.sm-ce-5 { --_ce: 5; }
+	.sm-ce-6 { --_ce: 6; }
+	.sm-ce-7 { --_ce: 7; }
+	.sm-ce-8 { --_ce: 8; }
+	.sm-ce-9 { --_ce: 9; }
+	.sm-ce-10 { --_ce: 10; }
+	.sm-ce-11 { --_ce: 11; }
+	.sm-ce-12 { --_ce: 12; }
+}
+@media (min-width: 768px) {
+	.md-ce-0 { --_ce: auto; }
+	.md-ce-1 { --_ce: 1; }
+	.md-ce-2 { --_ce: 2; }
+	.md-ce-3 { --_ce: 3; }
+	.md-ce-4 { --_ce: 4; }
+	.md-ce-5 { --_ce: 5; }
+	.md-ce-6 { --_ce: 6; }
+	.md-ce-7 { --_ce: 7; }
+	.md-ce-8 { --_ce: 8; }
+	.md-ce-9 { --_ce: 9; }
+	.md-ce-10 { --_ce: 10; }
+	.md-ce-11 { --_ce: 11; }
+	.md-ce-12 { --_ce: 12; }
+}
+@media (min-width: 1024px) {
+	.lg-ce-0 { --_ce: auto; }
+	.lg-ce-1 { --_ce: 1; }
+	.lg-ce-2 { --_ce: 2; }
+	.lg-ce-3 { --_ce: 3; }
+	.lg-ce-4 { --_ce: 4; }
+	.lg-ce-5 { --_ce: 5; }
+	.lg-ce-6 { --_ce: 6; }
+	.lg-ce-7 { --_ce: 7; }
+	.lg-ce-8 { --_ce: 8; }
+	.lg-ce-9 { --_ce: 9; }
+	.lg-ce-10 { --_ce: 10; }
+	.lg-ce-11 { --_ce: 11; }
+	.lg-ce-12 { --_ce: 12; }
+}
+@media (min-width: 1440px) {
+	.xl-ce-0 { --_ce: auto; }
+	.xl-ce-1 { --_ce: 1; }
+	.xl-ce-2 { --_ce: 2; }
+	.xl-ce-3 { --_ce: 3; }
+	.xl-ce-4 { --_ce: 4; }
+	.xl-ce-5 { --_ce: 5; }
+	.xl-ce-6 { --_ce: 6; }
+	.xl-ce-7 { --_ce: 7; }
+	.xl-ce-8 { --_ce: 8; }
+	.xl-ce-9 { --_ce: 9; }
+	.xl-ce-10 { --_ce: 10; }
+	.xl-ce-11 { --_ce: 11; }
+	.xl-ce-12 { --_ce: 12; }
+}

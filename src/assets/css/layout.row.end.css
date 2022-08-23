@@ -1,0 +1,84 @@
+/**
+ * Layout: Row End
+ * @version 1.0.01
+ * @summary 08-16-2022
+ * @author Mads Stoumann
+ * @description Change the row-end of a content-area.
+ * APPLY THIS TO A CONTENT AREA
+ * .xs-re-[x] .sm-re-[x], .md-re-[x], .lg-re-[x], .xl-re-[x]
+*/
+
+.xs-re-0 { --_re: auto; }
+.xs-re-1 { --_re: 1; }
+.xs-re-2 { --_re: 2; }
+.xs-re-3 { --_re: 3; }
+.xs-re-4 { --_re: 4; }
+.xs-re-5 { --_re: 5; }
+.xs-re-6 { --_re: 6; }
+.xs-re-7 { --_re: 7; }
+.xs-re-8 { --_re: 8; }
+.xs-re-9 { --_re: 9; }
+.xs-re-10 { --_re: 10; }
+.xs-re-11 { --_re: 11; }
+.xs-re-12 { --_re: 12; }
+
+@media (min-width: 480px) {
+	.sm-re-0 { --_re: auto; }
+	.sm-re-1 { --_re: 1; }
+	.sm-re-2 { --_re: 2; }
+	.sm-re-3 { --_re: 3; }
+	.sm-re-4 { --_re: 4; }
+	.sm-re-5 { --_re: 5; }
+	.sm-re-6 { --_re: 6; }
+	.sm-re-7 { --_re: 7; }
+	.sm-re-8 { --_re: 8; }
+	.sm-re-9 { --_re: 9; }
+	.sm-re-10 { --_re: 10; }
+	.sm-re-11 { --_re: 11; }
+	.sm-re-12 { --_re: 12; }
+}
+@media (min-width: 768px) {
+	.md-re-0 { --_re: auto; }
+	.md-re-1 { --_re: 1; }
+	.md-re-2 { --_re: 2; }
+	.md-re-3 { --_re: 3; }
+	.md-re-4 { --_re: 4; }
+	.md-re-5 { --_re: 5; }
+	.md-re-6 { --_re: 6; }
+	.md-re-7 { --_re: 7; }
+	.md-re-8 { --_re: 8; }
+	.md-re-9 { --_re: 9; }
+	.md-re-10 { --_re: 10; }
+	.md-re-11 { --_re: 11; }
+	.md-re-12 { --_re: 12; }
+}
+@media (min-width: 1024px) {
+	.lg-re-0 { --_re: auto; }
+	.lg-re-1 { --_re: 1; }
+	.lg-re-2 { --_re: 2; }
+	.lg-re-3 { --_re: 3; }
+	.lg-re-4 { --_re: 4; }
+	.lg-re-5 { --_re: 5; }
+	.lg-re-6 { --_re: 6; }
+	.lg-re-7 { --_re: 7; }
+	.lg-re-8 { --_re: 8; }
+	.lg-re-9 { --_re: 9; }
+	.lg-re-10 { --_re: 10; }
+	.lg-re-11 { --_re: 11; }
+	.lg-re-12 { --_re: 12; }
+}
+@media (min-width: 1440px) {
+	.xl-re-0 { --_re: auto; }
+	.xl-re-1 { --_re: 1; }
+	.xl-re-2 { --_re: 2; }
+	.xl-re-3 { --_re: 3; }
+	.xl-re-4 { --_re: 4; }
+	.xl-re-5 { --_re: 5; }
+	.xl-re-6 { --_re: 6; }
+	.xl-re-7 { --_re: 7; }
+	.xl-re-8 { --_re: 8; }
+	.xl-re-9 { --_re: 9; }
+	.xl-re-10 { --_re: 10; }
+	.xl-re-11 { --_re: 11; }
+	.xl-re-12 { --_re: 12; }
+}

@@ -5,6 +5,7 @@
  * @author Mads Stoumann
  * @description Widths for a layout
 */
+
 .wd-xxs { --_mis: calc(var(--size-xxs) + var(--_pi)); }
 .wd-xs  { --_mis: calc(var(--size-xs) + var(--_pi)); }
 .wd-sm  { --_mis: calc(var(--size-sm) + var(--_pi)); }

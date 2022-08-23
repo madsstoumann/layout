@@ -1,7 +1,7 @@
 /**
  * Layout: Main
- * @version 1.0.01
- * @summary 06-20-2022
+ * @version 1.0.02
+ * @summary 08-16-2022
  * @author Mads Stoumann
  * @requires `props.layout.css`, `props.media.css`, `props.sizes.css`
  * @description Adds a grid-based page layout to `<main>` with row-gap between layout-components.
@@ -11,27 +11,31 @@
 @import 'layout.aspect.ratio.css';
 @import 'layout.block.gap.css';
 @import 'layout.column.css';
-@import 'layout.column.span.css';
+@import 'layout.column.start.css';
+@import 'layout.column.end.css';
 @import 'layout.column.gap.css';
+@import 'layout.column.span.css';
 @import 'layout.object.position.css';
 @import 'layout.padding.css';
 @import 'layout.row.gap.css';
+@import 'layout.row.start.css';
+@import 'layout.row.end.css';
 @import 'layout.row.span.css';
 @import 'layout.templates.css';
 @import 'layout.widths.css';
 
-.ly-column {
-	column-count: var(--_c, 1);
-	column-gap: calc(var(--_cg, 1) * var(--layout-col-gap));
-}
-.ly-column, .ly-flex, .ly-grid, .ly-slider, .ly-subgrid, .ly-wrapper {
+.ly, .ly-column, .ly-flex, .ly-grid, .ly-overflow, .ly-slider, .ly-subgrid {
 	--_pi: 0px;
 	inline-size: 100%;
 	margin-inline: auto;
 	max-inline-size: var(--_mis, calc(100vw - var(--_pi)));
-	position: relative;
+}
+.ly-column {
+	column-count: var(--_c, 1);
+	column-gap: calc(var(--_cg, 1) * var(--layout-col-gap));
 }
 .ly-flex,
+.ly-subflex,
 .ly-slider {
 	display: flex;
 	gap: calc(var(--_cg, 1) * var(--layout-col-gap));
@@ -52,8 +56,10 @@
 }
 .ly-grid { grid-template-columns: var(--_gtc, repeat(var(--_c, auto-fit), minmax(var(--layout-min-inline-size, 2rem), 1fr))); }
 .ly-grid >* {
-	grid-column: var(--_gc, span var(--_cs, 1));
-	grid-row: var(--_gr, span var(--_rs, 1));
+	grid-column-start: var(--_cs, auto);
+	grid-column-end: var(--_ce, auto);
+	grid-row-start: var(--_rs, auto);
+	grid-row-end: var(--_re, auto);
 	position: relative;
 }
 .ly-grow { --_pi: calc((var(--_pis, 0) * var(--layout-padding-unit)) + (var(--_pie, 0) * var(--layout-padding-unit))); }
@@ -64,6 +70,10 @@
 	margin-block-end: calc(var(--_pg, 1) * var(--layout-block-gap));
 	row-gap: calc(var(--_pg, 1) * var(--layout-block-gap));
 }
+.ly-overflow {
+	overflow: hidden;
+	position: relative;
+}
 .ly-slider {
 	overflow-y: hidden;
 	scroll-behavior: smooth;
@@ -72,4 +82,3 @@
 .ly-slider[class*="-cg-0"] >* { flex: 0 0 calc((100% / var(--_c, 1))); }
 .ly-slider.ly-slider-next >* { --_w: calc((0.15 * var(--_c, 1)) + var(--_c, 1)); }
 .ly-subgrid { align-content: baseline; }
-.ly-wrapper { overflow: hidden; }

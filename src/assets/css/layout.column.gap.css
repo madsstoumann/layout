@@ -6,6 +6,7 @@
  * @description Change the column-gap in a layout, based on breakpoints:
  * .xs-cg-[x] .sm-cg-[x], .md-cg-[x], .lg-cg-[x], .xl-cg-[x]
 */
+
 .xs-cg-0 { --_cg: 0; }
 .xs-cg-1 { --_cg: 1; }
 .xs-cg-2 { --_cg: 2; }

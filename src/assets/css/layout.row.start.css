@@ -1,0 +1,84 @@
+/**
+ * Layout: Row Start
+ * @version 1.0.01
+ * @summary 08-16-2022
+ * @author Mads Stoumann
+ * @description Change the row-start of a content-area.
+ * APPLY THIS TO A CONTENT AREA
+ * .xs-rs-[x] .sm-rs-[x], .md-rs-[x], .lg-rs-[x], .xl-rs-[x]
+*/
+
+.xs-rs-0 { --_rs: auto; }
+.xs-rs-1 { --_rs: 1; }
+.xs-rs-2 { --_rs: 2; }
+.xs-rs-3 { --_rs: 3; }
+.xs-rs-4 { --_rs: 4; }
+.xs-rs-5 { --_rs: 5; }
+.xs-rs-6 { --_rs: 6; }
+.xs-rs-7 { --_rs: 7; }
+.xs-rs-8 { --_rs: 8; }
+.xs-rs-9 { --_rs: 9; }
+.xs-rs-10 { --_rs: 10; }
+.xs-rs-11 { --_rs: 11; }
+.xs-rs-12 { --_rs: 12; }
+
+@media (min-width: 480px) {
+	.sm-rs-0 { --_rs: auto; }
+	.sm-rs-1 { --_rs: 1; }
+	.sm-rs-2 { --_rs: 2; }
+	.sm-rs-3 { --_rs: 3; }
+	.sm-rs-4 { --_rs: 4; }
+	.sm-rs-5 { --_rs: 5; }
+	.sm-rs-6 { --_rs: 6; }
+	.sm-rs-7 { --_rs: 7; }
+	.sm-rs-8 { --_rs: 8; }
+	.sm-rs-9 { --_rs: 9; }
+	.sm-rs-10 { --_rs: 10; }
+	.sm-rs-11 { --_rs: 11; }
+	.sm-rs-12 { --_rs: 12; }
+}
+@media (min-width: 768px) {
+	.md-rs-0 { --_rs: auto; }
+	.md-rs-1 { --_rs: 1; }
+	.md-rs-2 { --_rs: 2; }
+	.md-rs-3 { --_rs: 3; }
+	.md-rs-4 { --_rs: 4; }
+	.md-rs-5 { --_rs: 5; }
+	.md-rs-6 { --_rs: 6; }
+	.md-rs-7 { --_rs: 7; }
+	.md-rs-8 { --_rs: 8; }
+	.md-rs-9 { --_rs: 9; }
+	.md-rs-10 { --_rs: 10; }
+	.md-rs-11 { --_rs: 11; }
+	.md-rs-12 { --_rs: 12; }
+}
+@media (min-width: 1024px) {
+	.lg-rs-0 { --_rs: auto; }
+	.lg-rs-1 { --_rs: 1; }
+	.lg-rs-2 { --_rs: 2; }
+	.lg-rs-3 { --_rs: 3; }
+	.lg-rs-4 { --_rs: 4; }
+	.lg-rs-5 { --_rs: 5; }
+	.lg-rs-6 { --_rs: 6; }
+	.lg-rs-7 { --_rs: 7; }
+	.lg-rs-8 { --_rs: 8; }
+	.lg-rs-9 { --_rs: 9; }
+	.lg-rs-10 { --_rs: 10; }
+	.lg-rs-11 { --_rs: 11; }
+	.lg-rs-12 { --_rs: 12; }
+}
+@media (min-width: 1440px) {
+	.xl-rs-0 { --_rs: auto; }
+	.xl-rs-1 { --_rs: 1; }
+	.xl-rs-2 { --_rs: 2; }
+	.xl-rs-3 { --_rs: 3; }
+	.xl-rs-4 { --_rs: 4; }
+	.xl-rs-5 { --_rs: 5; }
+	.xl-rs-6 { --_rs: 6; }
+	.xl-rs-7 { --_rs: 7; }
+	.xl-rs-8 { --_rs: 8; }
+	.xl-rs-9 { --_rs: 9; }
+	.xl-rs-10 { --_rs: 10; }
+	.xl-rs-11 { --_rs: 11; }
+	.xl-rs-12 { --_rs: 12; }
+}

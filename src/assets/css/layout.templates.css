@@ -5,36 +5,38 @@
  * @author Mads Stoumann
  * @description Sample Layouts, using the Layout Module
 */
+
 @media (min-width: 480px){
 	.lay-A >*:first-child,
-	.lay-B >*:last-child,
+	.lay-B >*:last-child { --_cs: 1; --_ce: 3; }
+	.lay-F >*:nth-child(3) { --_rs: 2; --_re: 4; }
+	.lay-G >*:first-child { --_rs: 1; --_re: 3; }
+	.lay-J >*:first-child { --_cs: 1; --_ce: 8; --_rs: 1; --_re: 5; }
+	.lay-J >*:last-child { --_cs: 2; --_ce: 7; --_rs: 4; --_re: 6; }
 	.lay-M >*:last-child,
-	.lay-N >*:last-child { --_cs: 2; }
-	.lay-F >*:nth-child(3),
-	.lay-G >*:first-child { --_cs: 1; --_rs: 2; }
-	.lay-J >*:nth-child(1) { --_gc: 1 / span 7; --_gr: 1 / span 6; }
-	.lay-J >*:nth-child(2) { --_gc: 2 / span 5; --_gr: 6 / span 2; }
+	.lay-N >*:last-child { --_cs: 1; --_ce: 3; }
 }
 @media (min-width: 1024px) {
-	.lay-B >*:last-child { --_cs: 1; }
-	.lay-A >*:first-child,
-	.lay-B >*:nth-child(2) { --_cs: 2; --_rs: 2; }	
-	.lay-C >*:first-child,
-	.lay-D >*:nth-child(2) { --_cs: 2; }
-	.lay-C >*:nth-child(2),
-	.lay-D >*:first-child,
+	.lay-A >*:first-child { --_rs: 1; --_re: 3; }
+	.lay-B >*:last-child { --_cs: 2; --_ce: 4; --_rs: 1; --_re: 3; }
+	.lay-C >*:first-child { --_cs: 1; --_ce: 3; }
+	.lay-C >*:nth-child(2) { --gcs_ 2; --_ce: 4; --_rs: 1; --_re: 3; }
+	.lay-D >*:first-child { --gcs_ 1; --_ce: 2; --_rs: 1; --_re: 3; }
+	.lay-D >*:nth-child(2) { --_cs: 2; --_ce: 4; }
 	.lay-E >*:first-child,
-	.lay-E >*:nth-child(3) { --_rs: 2; }
-	.lay-H >*:first-child,
-	.lay-I >*:nth-child(2) { --_cs: 2; --_rs: 3; }
-	.lay-K >*:nth-child(1) { --_gc: 1 / span 6; --_gr: 1 / span 6; }
-	.lay-K >*:nth-child(2) { --_gc: 6 / span 3; --_gr: 2 / span 4; }
-	.lay-L >*:nth-child(1) { --_gc: 2 / span 7; --_gr: 1 / span 8; }
-	.lay-L >*:nth-child(2) { --_gc: 1 / span 5; --_gr: 4 / span 1; }
-	.lay-M >*:nth-child(1) { --_gc: 1 / span 3; --_gr: 1 / span 2; }
-	.lay-M >*:nth-child(2) { --_gc: 3 / span 3; --_gr: 2 / span 2; }
-	.lay-M >*:nth-child(3) { --_gc: 5 / span 3; --_gr: 3 / span 3; }
-	.lay-N >*:nth-child(1) { --_gc: 1 / span 4; --_gr: 1 / span 8; }
-	.lay-N >*:nth-child(2) { --_gc: 4 / span 4; --_gr: 4 / span 4; }
-	.lay-N >*:nth-child(3) { --_gc: 6 / span 2; --_gr: 8 / span 1; }
+	.lay-E >*:nth-child(3) { --_rs: 1; --_re: 3; }
+	.lay-E >*:nth-child(3) { --_cs: 3; --_ce: 4; }
+	.lay-F >*:nth-child(3) { --_cs: 3; --_rs: 1; --_re: 3; }
+	.lay-H >*:first-child { --_cs: 1; --_ce: 3; --_rs: 1; --_re: 4; }
+	.lay-I >*:last-child { --_cs: 2; --_ce: 4; --_rs: 1; --_re: 4; }
+	.lay-K >*:first-child { --_cs: 1; --_ce: 7; --_rs: 1; --_re: 7; }
+	.lay-K >*:last-child { --_cs: 6; --_ce: 9; --_rs: 2; --_re: 6; }
+	.lay-L >*:first-child { --_cs: 2; --_ce: 9; --_rs: 1; --_re: 9; }
+	.lay-L >*:last-child { --_cs: 1; --_ce: 6; --_rs: 4; --_re: 5; }
+	.lay-M >*:first-child { --_cs: 1; --_ce: 4; --_rs: 1; --_re: 3; }
+	.lay-M >*:nth-child(2) { --_cs: 3; --_ce: 6; --_rs: 2; --_re: 4; }
+	.lay-M >*:nth-child(3) { --_cs: 5; --_ce: 8; --_rs: 3; --_re: 6; }
+	.lay-N >*:first-child { --_cs: 1; --_ce: 5; --_rs: 1; --_re: 9; }
+	.lay-N >*:nth-child(2) { --_cs: 4; --_ce: 8; --_rs: 4; --_re: 8; }
+	.lay-N >*:nth-child(3) { --_cs: 6; --_ce: 8; --_rs: 8; --_re: 9; }
 }

@@ -1,10 +1,11 @@
 /**
  * Layouts: Align and Justify
- * @version 1.0.00
- * @summary 06-19-2022
+ * @version 1.0.01
+ * @summary 08-16-2022
  * @author Mads Stoumann
  * @description Modifier-classes for handling `align-content`, `justify-content` and `text-align`
 */
+
 [class*="ly-ac-"] { align-content: var(--_ac, normal); }
 .ly-ac-bal { --_ac: baseline; }
 .ly-ac-fib { --_ac: first baseline; }
@@ -31,6 +32,19 @@
 .ly-jc-spe { --_jc: space-evenly; }
 .ly-jc-sta { --_jc: start; }
 .ly-jc-str { --_jc: stretch; }
+
+[class*="ly-ji-"] { justify-items: var(--_ji, normal); }
+.ly-ji-cen { --_ji: center; }
+.ly-ji-end { --_ji: end; }
+.ly-ji-fle { --_ji: flex-end; }
+.ly-ji-fls { --_ji: flex-start; }
+.ly-ji-lft { --_ji: left; }
+.ly-ji-rgt { --_ji: right; }
+.ly-ji-spa { --_ji: space-around; }
+.ly-ji-spb { --_ji: space-between; }
+.ly-ji-spe { --_ji: space-evenly; }
+.ly-ji-sta { --_ji: start; }
+.ly-ji-str { --_ji: stretch; }
 
 [class*="ly-ta-"] { text-align: var(--_ta, inherit); }
 .ly-ta-cen { --_ta: center; }
